@@ -1,0 +1,19 @@
+
+   Error 
+
+  Call to undefined function App\Console\Commands\doMatch()
+
+  at app/Console/Commands/MatchCommand.php:68
+    64| 
+    65| 
+    66|     public function handle()
+    67|     {
+  > 68|         doMatch();
+    69|     }
+    70| 
+    71|     
+    72| }
+
+      [2m+14 vendor frames [22m
+  15  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
